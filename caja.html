@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de imagenes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Galería de Imágenes de Gabo</h1>
+    </header>
+    <section class="nav">
+        <a href="index.html" >Encuadres y ángulos</a>
+        <a href="objetos.html">Selección de objetos</a>
+        <a href="caja.html" class="selected">Caja de luz</a>
+        <a href="tipos.html">Tipos de fotografía</a>
+    </section>
+    <main class="gallery-container">
+        <div class="gallery">
+            <div class="gallery-item" data-index="0">  <div class="image-container">
+                    <img src="image/sliver-metallic-color-sport-car-driving-with-high-speed-road.jpg" alt="Imagen 1A">
+                    <img src="image/logo_cromo.png" alt="Imagen 1B">
+                </div>
+                <h3 class="gallery-title">Título 1</h3>
+            </div>
+            <div class="gallery-item" data-index="1">  <div class="image-container">
+                    <img src="image/sliver-metallic-color-sport-car-driving-with-high-speed-road.jpg" alt="Imagen 2A">
+                    <img src="image/white-offroader-jeep-parking.jpg" alt="Imagen 2B">
+                </div>
+                <h3 class="gallery-title">Título 2</h3>
+            </div>
+            <div class="gallery-item" data-index="2">  <div class="image-container">
+                    <img src="image/475271179_1771541187012608_8651771508852933605_n.jpg" alt="Imagen 3A">
+                    <img src="image/475271179_1771541187012608_8651771508852933605_n.jpg" alt="Imagen 3B">
+                </div>
+                <h3 class="gallery-title">Título 3</h3>
+            </div>
+            <div class="gallery-item" data-index="3">  <div class="image-container">
+                    <img src="image/475271179_1771541187012608_8651771508852933605_n.jpg" alt="Imagen 4A">
+                    <img src="image/475271179_1771541187012608_8651771508852933605_n.jpg" alt="Imagen 4B">
+                </div>
+                <h3 class="gallery-title">Título 4</h3>
+            </div>
+            <div class="gallery-item" data-index="4">  <div class="image-container">
+                    <img src="image/475271179_1771541187012608_8651771508852933605_n.jpg" alt="Imagen 5A">
+                    <img src="image/475271179_1771541187012608_8651771508852933605_n.jpg" alt="Imagen 5B">
+                </div>
+                <h3 class="gallery-title">Título 5</h3>
+            </div>
+            <div class="gallery-item" data-index="5">  <div class="image-container">
+                    <img src="image/475271179_1771541187012608_8651771508852933605_n.jpg" alt="Imagen 6A">
+                    <img src="image/475271179_1771541187012608_8651771508852933605_n.jpg" alt="Imagen 6B">
+                </div>
+                <h3 class="gallery-title">Título 6</h3>
+            </div>
+             <div class="gallery-item" data-index="6">  <div class="image-container">
+                    <img src="image/475271179_1771541187012608_8651771508852933605_n.jpg" alt="Imagen 7A">
+                    <img src="image/475271179_1771541187012608_8651771508852933605_n.jpg" alt="Imagen 7B">
+                </div>
+                <h3 class="gallery-title">Título 7</h3>
+            </div>
+        </div>
+    </main>
+ 
+    <div class="modal" id="modal">
+        <span class="close" id="close">&times;</span>
+        <div class="modal-content">
+            <div class="modal-grid" id="modal-grid"></div>
+            <div class="modal-buttons">
+                <button id="prev">Anterior</button>
+                <button id="next">Siguiente</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
